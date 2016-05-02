@@ -15,7 +15,7 @@ curl -XPUT 'http://localhost:9200/_template/trace' -d@udbbeat/template.json
 **Start udpbeat UDP logs collector and emitter**
 
 ```shell
-go install github.com/graviational/udpbeat
+go install github.com/gravitational/udpbeat
 udpbeat
 ```
 
